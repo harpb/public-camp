@@ -9,7 +9,7 @@ We'll start you off with three basic models to get the camp going:
 
 - User: We'll keep things simple and use Django's stock user: django.contrib.auth.models.User
 - Camp: This includes the very basic details of summer camp: its name, start datetime, and end datetime
-- Attendee: We keep track of camp attendees, both campers and counselors
+- Attendee: This is how we keep track of camp attendees, both campers and counselors
 
 ## Your mission
 
