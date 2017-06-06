@@ -11,14 +11,14 @@ We'll start you off with three basic models to get the camp going:
 - Camp: This includes the very basic details of summer camp: its name, start datetime, and end datetime
 - Attendee: We keep track of camp attendees, both campers and counselors
 
-## Here's what we want
+## Your mission
 
-Campers want to have tons of fun!
+Campers want to have tons of fun! How and when and with whom are they having fun? That will be your task. You will be building out the activities and activities registration section of our app. 
 
 ## How to get started
-a
-1. Fork git repo
-1. In the base folder, set up a virtual environment using `virtualenv venv`
+
+1. Fork git repo using `git clone https://github.com/jyveapp/summer-camp.git`
+1. In the root folder (where `manage.py` resides), set up a virtual environment using `virtualenv venv` (virtualenv installation guide [http://docs.python-guide.org/en/latest/dev/virtualenvs/](here))
 1. Activate virtualenv by running `. venv/bin/activate`
 1. Install pip requirements by running `pip install -r requirements.txt`
 1. Run the initial migrations with `./manage.py migrate`
@@ -27,4 +27,15 @@ a
 1. Check to see if it works by visiting: http://localhost:8000/admin/
 1. If that works, then you're on your way! If you get an error, please reach out to us and we'll help you get it working (we know this is hard!)
 
-## The asdf
+## What we're looking for
+
+1. Well thought out models for activities and activity registrations
+1. Admin panel for activities that allows you to create/edit/update/delete an activity, as well as see all the people attending. An activity should have a name, start datetime, end datetime, counselor that's leading it, and list of attendees (registrants)
+1. Admin panel for activity registrations that allows you to create/edit/update/delete an activity registration. Note there should be a uniqueness constraint that disallows a user from signing up for the same activity more than once. 
+
+## Bonus points
+
+1. Unit tests on models
+1. 100% test coverage using the `coverage` library ([docs here; it's included in our pip requirements](https://coverage.readthedocs.io/en/coverage-4.4.1/))
+1. Deploy the app on Heroku ([details here](https://devcenter.heroku.com/articles/deploying-python))
+1. Easter eggs you come up with that will make camp more fun for the campers
