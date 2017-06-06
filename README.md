@@ -18,7 +18,7 @@ Campers want to have tons of fun! How and when and with whom are they having fun
 ## How to get started
 
 1. Fork git repo using `git clone https://github.com/jyveapp/summer-camp.git`
-1. In the root folder (where `manage.py` resides), set up a virtual environment using `virtualenv venv` (virtualenv installation guide [http://docs.python-guide.org/en/latest/dev/virtualenvs/](here))
+1. In the root folder (where `manage.py` resides), set up a virtual environment using `virtualenv venv` ((virtualenv installation guide)[http://docs.python-guide.org/en/latest/dev/virtualenvs/])
 1. Activate virtualenv by running `. venv/bin/activate`
 1. Install pip requirements by running `pip install -r requirements.txt`
 1. Run the initial migrations with `./manage.py migrate`
