@@ -2,6 +2,7 @@
 from django.contrib.auth.models import User
 from django.db import models
 
+
 class Camp(models.Model):
     '''
     Camp is the thing everyone goes to in the summer to have fun
@@ -18,6 +19,7 @@ class Camp(models.Model):
 
     def __unicode__(self):
         return u'{}'.format(self.name)
+
 
 class Attendee(models.Model):
     '''
@@ -37,6 +39,7 @@ class Attendee(models.Model):
 
     class Meta:
         db_table = 'attendee'
+        unique_together = (('camp', 'user'),)
 
     def __unicode__(self):
         return u'{}: {}'.format(self.camp.name, self.user.get_full_name())
