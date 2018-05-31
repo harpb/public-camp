@@ -28,6 +28,8 @@ Campers want to have tons of fun! How and when and with whom are they having fun
 1. Check to see if it works by visiting: http://localhost:8000/admin/
 1. If that works, then you're on your way! If you get an error, please reach out to us and we'll help you get it working (we know this is hard!)
 
+When you're finished, submit the project by giving us access to your forked repo and sharing the link.
+
 ## What we're looking for
 
 1. Well thought out models for activities and activity registrations
