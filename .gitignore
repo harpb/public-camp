@@ -1,7 +1,6 @@
 solution.md
 
 *.pyc
-*.sqlite3
 
 venv/*
 htmlcov
