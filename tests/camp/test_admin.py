@@ -1,7 +1,7 @@
 from django.urls import reverse
 from django.utils.functional import cached_property
 
-from camp.basecamp.models import Attendee, Camp
+from camp.basecamp.models import Attendee, Camp, Activity
 from tests.test_cases import ViewTestCase
 
 
@@ -102,6 +102,8 @@ class ActivityAdminTests(ViewTestCase):
             reverse('admin:basecamp_activity_changelist'),
             response.url
         )
+        # We should have 4 registered
+        self.assertEqual(4, Activity.objects.latest('id').attendees.count())
 
     def test_fail__end_at_before_start_at(self):
         payload = dict(
