@@ -1,0 +1,105 @@
+-   model: auth.user
+    pk: 1
+    fields:
+        password: pbkdf2_sha256$36000$eCpakBeu15S5$S+pRbWxuGxP9NXmM0zuYBJysQ0fA0qqxmltSsO9/geg=
+        last_login: 2018-09-21 20:42:14.853126+00:00
+        is_superuser: true
+        username: harp
+        first_name: ''
+        last_name: ''
+        email: ''
+        is_staff: true
+        is_active: true
+        date_joined: 2018-09-21 20:42:04.623101+00:00
+        groups: []
+        user_permissions: []
+-   model: auth.user
+    pk: 2
+    fields:
+        password: pbkdf2_sha256$36000$ny8POKDLvKgL$sP0B/E6Eugvlqtor5pSm1CZvlm1H1FCA+a6xxsdw7ec=
+        last_login: null
+        is_superuser: false
+        username: john
+        first_name: ''
+        last_name: ''
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2018-09-23 17:47:06.675246+00:00
+        groups: []
+        user_permissions: []
+-   model: auth.user
+    pk: 3
+    fields:
+        password: pbkdf2_sha256$36000$r1UfjMs1qGkc$j7hezEcyMt5neVux9IJ3EmSHFt+ZUCdDLtIzNyKgOIk=
+        last_login: null
+        is_superuser: false
+        username: beth
+        first_name: ''
+        last_name: ''
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2018-09-23 17:47:19.093832+00:00
+        groups: []
+        user_permissions: []
+-   model: auth.user
+    pk: 4
+    fields:
+        password: pbkdf2_sha256$36000$aQMInQQYiSOF$U6R1KF/+xK5EcN2Iuha3v/lbqStljZeKVvUm22Tqa9c=
+        last_login: null
+        is_superuser: false
+        username: adam
+        first_name: ''
+        last_name: ''
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2018-09-23 17:47:25.128629+00:00
+        groups: []
+        user_permissions: []
+-   model: auth.user
+    pk: 5
+    fields:
+        password: pbkdf2_sha256$36000$kw1e65FUWXHW$sWpL4H6diu4QgyDVR29lEYLC+Xdme+NEK8HiS1qSJtU=
+        last_login: null
+        is_superuser: false
+        username: tim
+        first_name: ''
+        last_name: ''
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2018-09-23 17:47:32.548895+00:00
+        groups: []
+        user_permissions: []
+-   model: auth.user
+    pk: 6
+    fields:
+        password: pbkdf2_sha256$36000$NWJeIpBvGJNQ$T/o3BvpAKIqwkR+cBqY8M8TZ0fcfFTmY1Coau+gJdME=
+        last_login: null
+        is_superuser: false
+        username: timmy
+        first_name: ''
+        last_name: ''
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2018-09-23 17:47:39.436895+00:00
+        groups: []
+        user_permissions: []
+-   model: auth.user
+    pk: 7
+    fields:
+        password: pbkdf2_sha256$36000$H6sSeZ2eFV6v$cX+FEvnczLBPFHs3TUMVKVRikiqmJ5F5gMEtoym4vsY=
+        last_login: null
+        is_superuser: false
+        username: annie
+        first_name: ''
+        last_name: ''
+        email: ''
+        is_staff: false
+        is_active: true
+        date_joined: 2018-09-23 17:47:44.147459+00:00
+        groups: []
+        user_permissions: []

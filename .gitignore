@@ -4,3 +4,6 @@ solution.md
 *.sqlite3
 
 venv/*
+htmlcov
+.idea
+.coverage

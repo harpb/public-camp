@@ -1,0 +1,50 @@
+-   model: basecamp.camp
+    pk: 1
+    fields: {name: Harp Camp, start_at: ! '2018-06-01 00:00:00+00:00', end_at: ! '2018-09-23
+            17:45:28+00:00', created_at: ! '2018-09-23 17:45:40.784144+00:00', updated_at: ! '2018-09-23
+            17:45:40.784144+00:00'}
+
+-   model: basecamp.attendee
+    pk: 1
+    fields: {camp: 1, user: 1, role: counselor}
+-   model: basecamp.attendee
+    pk: 2
+    fields: {camp: 1, user: 7, role: counselor}
+-   model: basecamp.attendee
+    pk: 3
+    fields: {camp: 1, user: 4, role: camper}
+-   model: basecamp.attendee
+    pk: 4
+    fields: {camp: 1, user: 3, role: camper}
+-   model: basecamp.attendee
+    pk: 5
+    fields: {camp: 1, user: 2, role: camper}
+-   model: basecamp.attendee
+    pk: 6
+    fields: {camp: 1, user: 5, role: camper}
+
+-   model: basecamp.activity
+    pk: 1
+    fields: {counselor: 1, name: Basketball, start_at: ! '2018-09-23 17:00:00+00:00',
+        end_at: ! '2018-09-23 18:00:00+00:00'}
+-   model: basecamp.activity
+    pk: 2
+    fields: {counselor: 2, name: Eating, start_at: ! '2018-09-23 18:00:00+00:00',
+        end_at: ! '2018-09-23 19:00:00+00:00'}
+-   model: basecamp.activity
+    pk: 6
+    fields: {counselor: 2, name: Lunch, start_at: ! '2018-09-23 18:00:00+00:00', end_at: ! '2018-09-23
+            18:00:01+00:00'}
+
+-   model: basecamp.activityattendee
+    pk: 1
+    fields: {activity: 1, attendee: 3}
+-   model: basecamp.activityattendee
+    pk: 2
+    fields: {activity: 2, attendee: 4}
+-   model: basecamp.activityattendee
+    pk: 3
+    fields: {activity: 1, attendee: 5}
+-   model: basecamp.activityattendee
+    pk: 4
+    fields: {activity: 6, attendee: 4}
