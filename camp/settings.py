@@ -25,7 +25,12 @@ SECRET_KEY = '=gosb$eu@f5q-_8l*^8!si*1w*6xu!sjehit*j&2piz(90%=lg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '[::1]',
+    'summer-basecamp.herokuapp.com'
+]
 
 
 # Application definition
