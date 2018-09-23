@@ -5,3 +5,4 @@ pyyaml==3.13
 
 # Server
 gunicorn
+whitenoise==4.1
